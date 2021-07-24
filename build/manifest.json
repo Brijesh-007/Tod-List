@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Todo List",
+  "author": "Brijesh",
+  "version": "1.0.0",
+  "description": "Add all your task and watch all your pending task list",
+  "icons": {
+    "128": "logo_128.png"
+  },
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab","storage"]
+}
